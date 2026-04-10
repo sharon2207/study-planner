@@ -1,0 +1,47 @@
+Smart Study Planner (Anime Edition)
+
+A logic based study planner that helps students organize subjects, track progress, and prioritize exams efficiently, presented with a simple anime inspired interface.
+
+Features
+Add subjects with exam dates and difficulty level
+Automatic priority based sorting
+Countdown timer showing days left for exams
+Progress tracker from 0 to 100 percent
+Urgency alert for upcoming exams
+Data persistence using Local Storage
+Smooth UI animations
+Logic Used
+
+This project focuses on core data structures and logic building:
+
+Sorting logic
+Tasks are sorted based on:
+Earliest exam date
+Higher difficulty level
+Priority handling
+Subjects with closer deadlines and higher difficulty are shown first
+Dynamic updates
+Progress changes update the interface instantly
+Tech Stack
+HTML
+CSS
+JavaScript
+Project Structure
+Smart-Study-Planner
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+How to Run
+Clone or download the repository
+Open index.html in any browser
+Start adding your study tasks
+Use Case
+
+This project helps students plan their studies, reduce last minute stress, and track their preparation effectively.
+
+Future Improvements
+Progress visualization using charts
+Daily study targets
+Export study plan as PDF
+Notification or reminder system
