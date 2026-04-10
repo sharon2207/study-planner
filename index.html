@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🎌 Study Quest Planner</h1>
+
+  <div class="input-box">
+    <input type="text" id="subject" placeholder="Enter Mission">
+    <input type="date" id="date">
+
+    <select id="difficulty">
+      <option value="1">Easy</option>
+      <option value="2">Medium</option>
+      <option value="3">Hard</option>
+    </select>
+
+    <button onclick="addTask()">Add Mission</button>
+  </div>
+
+  <h2 class="section-title">⚔️ Today’s Missions</h2>
+  <div id="planList"></div>
+
+  <h2 class="section-title">📜 All Missions</h2>
+  <div id="taskList"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
